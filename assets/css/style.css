@@ -134,3 +134,27 @@ hr {
     position: absolute;
     right: 120px;
 }
+
+/* footer */
+
+footer {
+    height: 130px;
+    margin-top: 70px;
+    background-color: #7F8386;
+}
+
+.social-networks {
+    float: left;
+    margin-left: 438px;
+    letter-spacing: 100px;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    padding-top: 48px;
+    color: #D9D9D9;
+}
