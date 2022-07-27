@@ -12,7 +12,44 @@ body {
     background-image: url(../css/images/background-image.jpg);
 }
 /* heading and logo */
+#navigation {
+    background-color: #7F8386;
+    font-size: 120%;
+    padding-top: 29px;
+    text-align: center;
+    height: 58px;
+}
+
+#navigation li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.in-use {
+    border-bottom: 1px solid #D9D9D9;
+}
+
 h1, h2 {
     font-family: Montserrat, sans-serif;
     color: #33636A;
+}
+#logo {
+    font-size: 400%;
+    text-align: center;
+    margin-top: 43px;
+}
+
+#quote {
+    padding-top: 70px;
+    text-align: center;
 }
