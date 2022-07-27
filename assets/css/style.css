@@ -58,6 +58,7 @@ h1, h2 {
 
 #main-images {
     margin-top: 70px;
+    height: 440px;
 }
 
 #main-left {
@@ -75,3 +76,44 @@ h1, h2 {
     right: 120px;
     border-radius: 35px;
 }
+
+/* who we are */
+
+#who-we-are {
+    margin-top: 60px;
+    height: 440px;
+}
+
+#left-about {
+    width: 380px;
+    float: left;
+    margin-left: 120px;
+    padding-top: 60px;
+}
+
+#right-about {
+    width: 380px;
+    float: right;
+    padding-top: 60px;
+    margin-right: 120px;
+    text-align: right;
+}
+
+#center-about {
+    padding: 40px;
+    width: 400px;
+    margin: 0 auto;
+}
+hr {
+    margin: 5px 0;
+}
+
+#circle-image {
+    height: 400px;
+    width: 400px;
+    background: url(../css/images/circle-image.jpg) no-repeat center center;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+
