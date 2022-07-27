@@ -43,7 +43,7 @@ h1, h2 {
     font-family: Montserrat, sans-serif;
     color: #33636A;
 }
-#logo {
+.logo {
     font-size: 400%;
     text-align: center;
     margin-top: 43px;
@@ -101,7 +101,7 @@ h1, h2 {
 
 #center-about {
     padding: 40px;
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
 }
 hr {
@@ -109,11 +109,28 @@ hr {
 }
 
 #circle-image {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     background: url(../css/images/circle-image.jpg) no-repeat center center;
     background-size: contain;
     border-radius: 50%;
 }
 
+/* top picks */
 
+#top-videos {
+    margin-top: 60px;
+    height: 440px;
+}
+
+#left-video {
+    padding-top: 60px;
+    position: absolute;
+    left: 120px;
+}
+
+#right-video {
+    padding-top: 60px;
+    position: absolute;
+    right: 120px;
+}
