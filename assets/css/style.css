@@ -50,6 +50,28 @@ h1, h2 {
 }
 
 #quote {
-    padding-top: 70px;
+    margin-top: 70px;
     text-align: center;
+}
+
+/* main images */
+
+#main-images {
+    margin-top: 70px;
+}
+
+#main-left {
+    position: absolute;
+    width: 595px;
+    height: 440px;
+    left: 120px;
+    border-radius: 35px;
+}
+
+#main-right {
+    position: absolute;
+    width: 595px;
+    height: 440px;
+    right: 120px;
+    border-radius: 35px;
 }
