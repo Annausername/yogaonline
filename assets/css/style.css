@@ -174,11 +174,27 @@ footer {
 /* upcoming events */
 
 #events {
+    margin: 20px auto;
     background-image: url(../css/images/plank.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 74%;
-    width: 100%;
+    width: 1000px;
     overflow: hidden;
 }
 
+#events div {
+    color: #303233;
+    background-color: rgb(217, 217, 217, 60%);
+    width: 23%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 35px;
+    border: 10px solid #D9D9D9;
+}
+
+#events > h2 {
+    margin-top: 50px;
+}
