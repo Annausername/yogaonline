@@ -171,3 +171,14 @@ footer {
     color: #D9D9D9;
 }
 
+/* upcoming events */
+
+#events {
+    background-image: url(../css/images/plank.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 74%;
+    width: 100%;
+    overflow: hidden;
+}
+
