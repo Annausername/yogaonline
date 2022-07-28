@@ -174,7 +174,7 @@ footer {
 /* upcoming events */
 
 #events {
-    margin: 20px auto;
+    margin: 40px auto;
     background-image: url(../css/images/plank.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -197,4 +197,46 @@ footer {
 
 #events > h2 {
     margin-top: 50px;
+}
+
+/* Meet you section */
+
+#meet-you {
+    height: 115px;
+    width: 620px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+#meet-you p {
+    padding-top: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+/* Community */
+
+#community {
+    width: 1215px;
+    height: 500px;
+    background-image: url(../css/images/community.jpg);
+    background-position: 30% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+    bottom: 0;
+}
+
+#community > div {
+    width: 1215px;
+    height: 500px;
+    background-color: rgb(217, 217, 217, 90%);
+}
+
+#review1, #review2, #review3, #review4 {
+    height: 150px;
+    width: 570px;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
 }
