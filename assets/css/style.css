@@ -217,7 +217,7 @@ footer {
 /* Community */
 
 #community {
-    width: 1215px;
+    width: 1214px;
     height: 500px;
     background-image: url(../css/images/community.jpg);
     background-position: 30% 70%;
@@ -228,15 +228,34 @@ footer {
 }
 
 #community > div {
-    width: 1215px;
-    height: 500px;
+    color: #303233;
+    width: 467px;
+    height: 125px;
     background-color: rgb(217, 217, 217, 90%);
+    float: left;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#community h3 {
+    color: #33636A;
+    font-weight: 120%;
+    padding-top: 30px;
+    padding-bottom: 5px;
 }
 
-#review1, #review2, #review3, #review4 {
+
+/* #review1, #review2, #review3, #review4 {
     height: 150px;
-    width: 570px;
-    margin-top: 30px;
-    margin-left: 30px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
     float: left;
 }
+
+#review5 {
+    height: 100px;
+    width: inherit;
+    margin-left: 30px;
+    background-color: #33636A;
+    display: inline;
+} */
