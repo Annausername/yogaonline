@@ -66,7 +66,7 @@ h1, h2 {
     position: absolute;
     width: 595px;
     height: 440px;
-    left: 120px;
+    left: 140px;
     border-radius: 35px;
 }
 
@@ -74,7 +74,7 @@ h1, h2 {
     position: absolute;
     width: 595px;
     height: 440px;
-    right: 120px;
+    right: 140px;
     border-radius: 35px;
 }
 
@@ -88,7 +88,7 @@ h1, h2 {
 #left-about {
     width: 380px;
     float: left;
-    margin-left: 120px;
+    margin-left: 140px;
     padding-top: 60px;
     letter-spacing: 1px;
 }
@@ -97,7 +97,7 @@ h1, h2 {
     width: 380px;
     float: right;
     padding-top: 60px;
-    margin-right: 120px;
+    margin-right: 140px;
     text-align: right;
     letter-spacing: 1px;
 }
@@ -130,7 +130,7 @@ hr {
 #left-video {
     padding-top: 60px;
     position: absolute;
-    left: 120px;
+    left: 140px;
     width: 560px;
     height: 315px;
 }
@@ -138,7 +138,7 @@ hr {
 #right-video {
     padding-top: 60px;
     position: absolute;
-    right: 120px;
+    right: 140px;
     width: 560px;
     height: 315px;
 }
