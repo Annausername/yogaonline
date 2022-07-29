@@ -49,8 +49,9 @@ h1, h2 {
     margin-top: 30px;
 }
 
-#quote {
-    margin-top: 30px;
+.quote {
+    width: 583px;
+    margin: 30px auto;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -125,10 +126,11 @@ hr {
 #top-videos {
     margin-top: 60px;
     height: 440px;
+    padding-bottom: 70px;
 }
 
 #left-video {
-    padding-top: 60px;
+    padding-top: 30px;
     position: absolute;
     left: 140px;
     width: 560px;
@@ -136,7 +138,7 @@ hr {
 }
 
 #right-video {
-    padding-top: 60px;
+    padding-top: 30px;
     position: absolute;
     right: 140px;
     width: 560px;
