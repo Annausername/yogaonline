@@ -67,7 +67,7 @@ h1, h2 {
     position: absolute;
     width: 595px;
     height: 440px;
-    left: 140px;
+    left: 100px;
     border-radius: 35px;
 }
 
@@ -75,7 +75,7 @@ h1, h2 {
     position: absolute;
     width: 595px;
     height: 440px;
-    right: 140px;
+    right: 100px;
     border-radius: 35px;
 }
 
@@ -89,7 +89,7 @@ h1, h2 {
 #left-about {
     width: 380px;
     float: left;
-    margin-left: 140px;
+    margin-left: 100px;
     padding-top: 60px;
     letter-spacing: 1px;
 }
@@ -98,7 +98,7 @@ h1, h2 {
     width: 380px;
     float: right;
     padding-top: 60px;
-    margin-right: 140px;
+    margin-right: 100px;
     text-align: right;
     letter-spacing: 1px;
 }
@@ -132,7 +132,7 @@ hr {
 #left-video {
     padding-top: 30px;
     position: absolute;
-    left: 140px;
+    left: 100px;
     width: 560px;
     height: 315px;
 }
@@ -140,7 +140,7 @@ hr {
 #right-video {
     padding-top: 30px;
     position: absolute;
-    right: 140px;
+    right: 100px;
     width: 560px;
     height: 315px;
 }
@@ -246,18 +246,70 @@ footer {
 }
 
 
-/* #review1, #review2, #review3, #review4 {
-    height: 150px;
-    width: 400px;
-    margin-top: 50px;
-    margin-left: 100px;
-    float: left;
+/* join us page */
+
+#join-us {
+    width: 990px;
+    height: 450px;
+    margin: 40px auto;
+    border-radius: 35px;
+    background-color: rgb(270, 270, 270, 70%);
 }
 
-#review5 {
-    height: 100px;
-    width: inherit;
-    margin-left: 30px;
+#join-form {
+    width: 495px;
+    height: 450px;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+}
+#join-quote{
+    margin-bottom: 20px;
+}
+.label {
+    color: #7F8386;
+    float: left;
+    margin-left: 50px;
+}
+
+.text-input {
+    color: #fafafa;
+    width: 80%;
+    height: 35px;
+    margin: 10px auto;
+    border: transparent 3px solid;
+    border-radius: 2px;
+    display: block;
+}
+
+.text-input:hover {
+    border-color: #33636A;
+}
+
+.join-button {
+    margin: 40px auto;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
     background-color: #33636A;
-    display: inline;
-} */
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #33636A;
+}
+
+#join-image {
+    width: 495px;
+    height: 450px;
+    float: right;
+}
+
+#join-image img {
+    height: 450px;
+    width: 495px;
+    border-radius: 35px;
+}

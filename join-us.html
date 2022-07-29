@@ -8,6 +8,7 @@
     <meta name="description" content="Online yoga classes">
     <meta name="keywords" content="yoga, online yoga, yoga classes">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="/assets/css/images/yoga.png" type="image/icon type">
     <title>Yoga classes</title>
 </head>
 <body>
@@ -26,8 +27,22 @@
             </ul>
         </nav>
     </header>
-    <section>
-        
+    <section id="join-us">
+        <div id="join-form">
+            <form method="POST">
+                <h2 id="join-quote">Explore the path<br>to your true self:</h2>
+                <label for="fname" class="label">First Name</label>
+                <input id="fname" class="text-input" type="text" name="first_name" required />
+                <label for="lname" class="label">Last Name</label>
+                <input id="lname" class="text-input" type="text"  name="last_name" required />
+                <label for="email" class="label">Email Address</label>
+                <input id="email" class="text-input" type="email" name="email_address" required/>
+                <input class="join-button"  type="submit" value="Join Us">
+            </form>
+        </div>
+        <div id="join-image">
+            <img src="/assets/css/images/yoga-mat.jpg" alt="Yoga mat">
+        </div>
     </section>
     <footer>
         <ul class="social-networks">
