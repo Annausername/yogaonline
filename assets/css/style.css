@@ -9,7 +9,7 @@
 body {
     font-family: Fira Sans, sans-serif;
     color: #444647;
-    background-image: url(../css/images/background-image.jpg);
+    background-image: url(../images/background-image.jpg);
 }
 /* heading and logo */
 #navigation {
@@ -23,7 +23,6 @@ body {
 #navigation li {
     display: inline;
     list-style-type: none;
-    margin-right: 20px;
 }
 
 #navigation a {
@@ -78,11 +77,16 @@ h1, h2 {
     right: 100px;
     border-radius: 35px;
 }
+#main-right>img, #main-left>img{
+    width: inherit;
+    height: fit-content;
+    border-radius: 35px;
+}
 
 /* who we are */
 
 #who-we-are {
-    margin-top: 30px;
+    margin-top: 60px;
     height: 440px;
 }
 
@@ -116,7 +120,7 @@ hr {
 #circle-image {
     height: 350px;
     width: 350px;
-    background: url(../css/images/circle-image.jpg) no-repeat center center;
+    background: url(../images/circle-image.jpg) no-repeat center center;
     background-size: contain;
     border-radius: 50%;
 }
@@ -153,18 +157,19 @@ iframe{
 
 footer {
     height: 100px;
+    width: 100%;
     margin-top: 70px;
     background-color: #7F8386;
 }
 
 .social-networks {
-    float: left;
-    margin-left: 438px;
-    letter-spacing: 100px;
+    text-align: center;
+    bottom: 0;
 }
 
 .social-networks > li {
     display: inline;
+    margin: 0 20px;
 }
 
 .social-networks i {
@@ -177,7 +182,7 @@ footer {
 
 #events {
     margin: 40px auto;
-    background-image: url(../css/images/plank.jpg);
+    background-image: url(../images/plank.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 74%;
@@ -221,7 +226,7 @@ footer {
 #community {
     width: 1214px;
     height: 500px;
-    background-image: url(../css/images/community.jpg);
+    background-image: url(../images/community.jpg);
     background-position: 30% 70%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -273,7 +278,7 @@ footer {
 }
 
 .text-input {
-    color: #fafafa;
+    color: #7F8386;
     width: 80%;
     height: 35px;
     margin: 10px auto;
@@ -287,19 +292,21 @@ footer {
 }
 
 .join-button {
-    margin: 40px auto;
+    font-family: Montserrat, sans-serif;
+    margin: 30px auto;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
-    font-size: 100%;
+    font-size: 130%;
     background-color: #33636A;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
-    color: #33636A;
+    background-color: #56a8b5;
+    color: #fafafa;
+    cursor: pointer;
 }
 
 #join-image {
@@ -312,4 +319,63 @@ footer {
     height: 450px;
     width: 495px;
     border-radius: 35px;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1395px wide and down */
+@media screen and (max-width: 1395px){
+    #main-images {
+        height: 400px;
+    }
+    #main-left, #main-right {
+        width: 555px;;
+    }
+}
+ /* For large to medium screens sizes from 1330px wide and down */
+@media screen and (max-width: 1330px){
+
+
+    #main-images {
+        height: 440px;
+        width: 50%;
+    }
+    #main-left {
+        height: 440px;
+        width: inherit;
+        display: flex;
+    }
+    #main-right {
+        height: 440px;
+        width: inherit;
+        display: flex;
+    }
+    #main-left>img, #main-right>img {
+        width: inherit;
+        height: fit-content;
+    }
+
+    #who-we-are {
+        width: 65%;
+        height: 1050px;
+        margin: 0 auto;
+    }
+
+    #left-about, #right-about{
+        width: 100%;
+    }
+
+    #center-about {
+        clear: both;
+    }
+     /* #top-videos{
+        width: 100%;
+        height: 640px;
+     }
+     #left-video, #right-video{
+        clear: both;
+        display: block;
+        height: 50%;
+        width: 100%;
+     } */
 }
