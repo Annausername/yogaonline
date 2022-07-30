@@ -158,7 +158,7 @@ iframe{
 #wrapper{
     min-height: calc(100vh - 70px);
 }
-  
+
 /* footer */
 
 footer {
@@ -401,7 +401,7 @@ footer {
     #community > div{
         width: inherit;
         clear: both;
-        height: 150px;
+        height: fit-content;
         margin: 20px auto;
 }  
 }
