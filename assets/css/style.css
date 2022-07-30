@@ -335,47 +335,51 @@ footer {
  /* For large to medium screens sizes from 1330px wide and down */
 @media screen and (max-width: 1330px){
 
-
     #main-images {
-        height: 440px;
-        width: 50%;
+        height: 1050px;
+        width: 640px;
+        margin: 0 auto;
     }
     #main-left {
-        height: 440px;
-        width: inherit;
-        display: flex;
+        position: relative;
+        width: 100%;
+        height: 512px;
+        display: contents;
     }
     #main-right {
-        height: 440px;
-        width: inherit;
-        display: flex;
-    }
-    #main-left>img, #main-right>img {
-        width: inherit;
-        height: fit-content;
+        position: relative;
+        width: 100%;
+        height: 512px;
+        display: contents;
     }
 
     #who-we-are {
         width: 65%;
-        height: 1050px;
         margin: 0 auto;
+        height: 1000px
     }
 
     #left-about, #right-about{
-        width: 100%;
+        width: inherit;
     }
 
     #center-about {
         clear: both;
     }
-     /* #top-videos{
-        width: 100%;
-        height: 640px;
-     }
-     #left-video, #right-video{
-        clear: both;
-        display: block;
-        height: 50%;
-        width: 100%;
-     } */
+
+    /* top picks */
+
+    #top-videos {
+        height: 750px;
+        width: 560px;
+        margin: 0 auto;
+    }
+    #left-video {
+        position: relative;
+        display: contents;
+    }
+    #right-video {
+        position: relative;
+        display: contents;
+    }
 }
