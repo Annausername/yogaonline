@@ -18,6 +18,7 @@ body {
     padding-top: 20px;
     text-align: center;
     height: 40px;
+    
 }
 
 #navigation li {
@@ -152,7 +153,12 @@ hr {
 iframe{
     border-width: 0px;
 }
+/* wrapper to push the footer on a join us page */
 
+#wrapper{
+    min-height: calc(100vh - 70px);
+}
+  
 /* footer */
 
 footer {
@@ -356,7 +362,7 @@ footer {
     #who-we-are {
         width: 65%;
         margin: 0 auto;
-        height: 1000px
+        height: 1030px
     }
 
     #left-about, #right-about{
@@ -365,6 +371,7 @@ footer {
 
     #center-about {
         clear: both;
+        height: inherit;
     }
 
     /* top picks */
@@ -382,4 +389,19 @@ footer {
         position: relative;
         display: contents;
     }
+}
+
+/* For large to medium screens sizes from 1235px wide and down */
+@media screen and (max-width: 1235px){
+
+    #community{
+        background-image: none;
+        width: 80%;
+    }
+    #community > div{
+        width: inherit;
+        clear: both;
+        height: 150px;
+        margin: 20px auto;
+}  
 }
