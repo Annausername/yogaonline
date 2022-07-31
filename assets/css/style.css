@@ -509,3 +509,24 @@ footer {
         text-align: center;
 }
 }
+
+/* For large to medium screens sizes from 540px wide and down */
+@media screen and (max-width: 540px){
+    #meet-you {
+        height: fit-content;
+        width: 80%;
+    }    
+    #reviews{
+        width: fit-content;
+        height: 1450px;
+    }
+    .text-input{
+        height: 70%;
+    }
+    #join-image{
+        width: 80%;
+    }
+    #join-quote {
+        font-size: 120%;
+    }
+}
