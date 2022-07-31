@@ -59,7 +59,7 @@ backgrounds
 
  - This section will allow the user to understand that no matter of the experience level he has he will be able to find the appropriate class.
 
-![We Meet You](https://github.com/Annausername/yogaonline/blob/main/media/meet-you.png)
+![We Meet You](https://github.com/Annausername/yogaonline/blob/main/media/we-meet-you.png)
 
 - __Community__
 
@@ -77,6 +77,5 @@ backgrounds
 
   - This page will allow the user to see that he successfully signed up to Yoga Online Classes and is expected to receive a response.
 
-![Form Confirmation](https://github.com/Annausername/yogaonline/blob/main/media/confirmation.png)
-
+![Form Confirmation](https://github.com/Annausername/yogaonline/blob/main/media/form-confirmation.png)
 
