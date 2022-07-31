@@ -1,108 +1,48 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Yoga Classes
 
-Welcome Anna,
+Online Yoga Classes is a landing page for beginners and the rookies who are looking to join online yoga practices. Yoga Classes community offers a wide schedule of online classes with different types of yoga along with teachers.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of this website will be able to find all the information they needed to know about Online Yoga Classes: About the mission and the vision of the group of teachers, time schedule, reviews and top classes to start from.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsive Mockup](https://github.com/Annausername/yogaonline/blob/main/media/yoga-online-mockup.png)
 
-## Gitpod Reminders
+## Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. ?????
 
-`python3 -m http.server`
+### Existing Features
 
-A blue button should appear to click: _Make Public_,
+- __Navigation Bar__
 
-Another blue button should appear to click: _Open Browser_.
+  - Featured on all three pages, the full responsive navigation bar includes links to Home page, Our Classes and Join Up page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Nav Bar](https://github.com/Annausername/yogaonline/blob/main/media/nav-bar.png)
 
-A blue button should appear to click: _Make Public_,
+- __The landing page logo and images__
 
-Another blue button should appear to click: _Open Browser_.
+  - The landing includes a logo, quote and two photographs and introduces the user to Yoga in general with two poses that a user would be doing along throughout the class.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Landing Page](https://github.com/Annausername/yogaonline/blob/main/media/landing-images.png)
 
-To log into the Heroku toolbelt CLI:
+- __Who We Are section__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - The Who We Are section will allow the user to learn more about the group of teachers introducing their mission and vision. 
+  - This user will see who he is going to learn from and what drives these people. This should encourage the user to consider this group of people as his teachers. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Who we Are](https://github.com/Annausername/yogaonline/blob/main/media/who-we-are.png)
 
-------
+- __Top Picks__
 
-## Release History
+  - This section contains two videos with links to Youtube (the videos are playing on-site) which are the top picks from the teachers so far. The user can play these videos and get to know the team more as long as the classes he will be joining.
+  - This section will be updated as these picks change to keep the user up to date. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Meetup Times](https://github.com/Annausername/yogaonline/blob/main/media/top-picks.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- __The Footer__ 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  - The footer section includes links to the relevant social media sites for Online Yoga Classes. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Footer](https://github.com/Annausername/yogaonline/blob/main/media/footer.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
