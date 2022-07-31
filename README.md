@@ -10,11 +10,13 @@ Users of this website will be able to find all the information they needed to kn
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. ?????
 
+backgrounds
+
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to Home page, Our Classes and Join Up page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the full responsive navigation bar includes links to Home page, Our Classes and Join Us page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](https://github.com/Annausername/yogaonline/blob/main/media/nav-bar.png)
@@ -45,4 +47,36 @@ In this section, you should go over the different parts of your project, and des
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](https://github.com/Annausername/yogaonline/blob/main/media/footer.png)
+
+- __Upcoming Events__
+
+ - This section will allow the user to see exactly when the yoga classes will happen, what kind of Yoga is available for the user to join at this time.
+ - This section will be updated as these times change to keep the user up to date.
+
+![Upcoming Events](https://github.com/Annausername/yogaonline/blob/main/media/events.png)
+
+- __Meet You__
+
+ - This section will allow the user to understand that no matter of the experience level he has he will be able to find the appropriate class.
+
+![We Meet You](https://github.com/Annausername/yogaonline/blob/main/media/meet-you.png)
+
+- __Community__
+
+ - This section will allow the user to see the latest students' comments about the classes to understand people's attitude towards the lessons.
+
+![Community](https://github.com/Annausername/yogaonline/blob/main/media/events.png)
+
+- __The Join Us Page__
+
+  - This page will allow the user to get signed up to Yoga Online Classes to start their journey with the community.The user will be asked to submit their full name and email address. 
+
+![Join Us](https://github.com/Annausername/yogaonline/blob/main/media/join-us.png)
+
+- __Form Confirmation__
+
+  - This page will allow the user to see that he successfully signed up to Yoga Online Classes and is expected to receive a response.
+
+![Form Confirmation](https://github.com/Annausername/yogaonline/blob/main/media/confirmation.png)
+
 
