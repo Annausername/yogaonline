@@ -12,14 +12,13 @@ body {
     background-image: url(../images/background-image.jpg);
 }
 
-/* heading and logo */
+/* nav and logo */
 #navigation {
     background-color: #7F8386;
     font-size: 120%;
     padding-top: 20px;
     text-align: center;
     height: 40px;
-
 }
 
 #navigation li {
@@ -61,7 +60,6 @@ h2 {
 }
 
 /* main images */
-
 #main-images {
     margin-top: 50px;
     height: 440px;
@@ -90,7 +88,6 @@ h2 {
 }
 
 /* who we are */
-
 #who-we-are {
     margin-top: 60px;
     height: 440px;
@@ -118,6 +115,7 @@ hr {
     border-bottom: #33636A 1px solid;
 }
 
+/* crcle center image */
 #center-about {
     padding: 40px;
     width: 350px;
@@ -133,7 +131,6 @@ hr {
 }
 
 /* top picks */
-
 #top-videos {
     margin-top: 60px;
     height: 440px;
@@ -163,13 +160,11 @@ hr {
 }
 
 /* wrapper to push the footer */
-
 .wrapper {
     min-height: calc(100vh - 70px);
 }
 
 /* footer */
-
 footer {
     height: 100px;
     width: 100%;
@@ -193,7 +188,6 @@ footer {
 }
 
 /* upcoming events */
-
 #events {
     margin: 40px auto;
     background-image: url(../images/plank.jpg);
@@ -220,8 +214,7 @@ footer {
     margin-top: 50px;
 }
 
-/* Meet you section */
-
+/* we meet you section */
 #meet-you {
     height: 115px;
     width: 620px;
@@ -235,8 +228,7 @@ footer {
     letter-spacing: 1px;
 }
 
-/* Community */
-
+/* community */
 #community {
     width: 1214px;
     height: 500px;
@@ -266,7 +258,6 @@ footer {
 }
 
 /* join us page */
-
 #join-us {
     width: 990px;
     height: 450px;
@@ -275,6 +266,7 @@ footer {
     background-color: rgb(255, 255, 255, 70%);
 }
 
+/* join us form */
 #join-form {
     width: 495px;
     height: 450px;
@@ -325,8 +317,8 @@ footer {
     cursor: pointer;
 }
 
+/* join us image */
 #join-image {
-
     width: 495px;
     height: 450px;
     float: right;
@@ -342,6 +334,8 @@ footer {
 
 /* For large to medium screens sizes from 1395px wide and down */
 @media screen and (max-width: 1395px) {
+
+    /* main images */
     #main-images {
         height: 400px;
     }
@@ -355,6 +349,7 @@ footer {
 /* For large to medium screens sizes from 1330px wide and down */
 @media screen and (max-width: 1330px) {
 
+    /* main images */
     #main-images {
         height: 1050px;
         width: 640px;
@@ -375,6 +370,7 @@ footer {
         display: contents;
     }
 
+    /* who we are */
     #who-we-are {
         width: 65%;
         margin: 0 auto;
@@ -392,7 +388,6 @@ footer {
     }
 
     /* top picks */
-
     #top-videos {
         height: 750px;
         width: 560px;
@@ -418,6 +413,8 @@ footer {
 
 /* For large to medium screens sizes from 1235px wide and down */
 @media screen and (max-width: 1235px) {
+
+    /* community */
     #reviews {
         clear: left;
         height: 1400px;
@@ -444,12 +441,14 @@ footer {
         font-size: 300%;
     }
 
+    /* main images */
     #main-images {
         height: fit-content;
         width: 65%;
         margin: 0 auto;
     }
 
+    /* who we are */
     #left-about {
         margin-top: 20px;
         display: contents;
@@ -467,6 +466,18 @@ footer {
         margin-top: 20px;
     }
 
+    #center-about {
+        padding: 20px;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #circle-image {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* top picks */
     #top-videos {
         width: fit-content;
         margin: 0 auto;
@@ -483,17 +494,7 @@ footer {
         margin-top: 40px;
     }
 
-    #center-about {
-        padding: 20px;
-        width: 200px;
-        margin: 0 auto;
-    }
-
-    #circle-image {
-        height: 200px;
-        width: 200px;
-    }
-
+    /* upcoming events */
     #events>div {
         width: inherit;
         height: 150px;
@@ -506,16 +507,17 @@ footer {
         width: 100%;
     }
 
+    /* we meet you */
     #meet-you {
         width: 80%;
     }
 
+    /* community */
     #reviews {
         width: fit-content;
     }
 
     /* join us */
-
     #join-us {
         width: 80%;
         height: 900px;
@@ -528,7 +530,6 @@ footer {
         padding-top: 20px;
         float: none;
         margin: 20px auto;
-
     }
 
     .label {
@@ -552,19 +553,24 @@ footer {
 
 /* For large to medium screens sizes from 540px wide and down */
 @media screen and (max-width: 540px) {
+
+    /* upcoming events */
     #events {
         padding: 0;
     }
 
+    /* we meet you */
     #meet-you {
         height: fit-content;
         width: 80%;
     }
 
+    /* community */
     #community>div {
         padding: 0 20px;
     }
 
+    /* join us */
     .text-input {
         width: 100%;
     }
