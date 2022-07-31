@@ -24,6 +24,7 @@ body {
 #navigation li {
     display: inline;
     list-style-type: none;
+    padding: 0 5px;
 }
 
 #navigation a {
@@ -314,13 +315,14 @@ footer {
 }
 
 #join-image {
+    
     width: 495px;
-    height: 330px;
+    height: 450px;
     float: right;
 }
 
 #join-image img {
-    height: 330px;
+    height: 450px;
     width: 495px;
     border-radius: 35px;
 }
@@ -516,6 +518,9 @@ footer {
 
 /* For large to medium screens sizes from 540px wide and down */
 @media screen and (max-width: 540px){
+    #events{
+        padding: 0;
+    }
     #meet-you {
         height: fit-content;
         width: 80%;
@@ -525,7 +530,7 @@ footer {
     }
 
     .text-input{
-        height: 70%;
+        width: 100%;
     }
     #join-image{
         width: 80%;
