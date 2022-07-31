@@ -117,7 +117,7 @@ Solved bugs
 
 - The Upcoming Events section is not centered in mobile version;
 - The Community section lacks background on the screen size width of 1235px and down. 
-- The Community section lacks background on the screen size width of 1235px and down. 
+- The image on the Join Us page appears too small on the on the mobile version from a UI/UX standpoint.
 
 ## Deployment
 
